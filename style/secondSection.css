@@ -29,7 +29,7 @@
 
 /* Information text */
 .sec2-info {
-    font-size: 1vw;
+    font-size: 18px;
     font-weight: 500;
     padding-left: 5% !important;
     line-height: 35px;
@@ -145,13 +145,14 @@
     }
 
     .sec2-info {
-        font-size: 16px;
+        font-size: 16px !important;
         line-height: 28px;
     }
 
     .sec2-heading {
         font-size: 24pt !important;
         line-height: 36px;
+        margin-bottom: 15px !important;
     }
 
     .sec2-down-btn {
@@ -190,7 +191,7 @@
 
     .sec2-heading {
         padding: 0px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 30px ;
     line-height: 48px;
     font-family: 'DM Sans', sans-serif;
     font-size: 20pt !important;
@@ -220,9 +221,9 @@
         font-size: 1vw;
     }
 
-    .sec2-info {
+    /* .sec2-info {
         font-size: 18px;
-    }
+    } */
 
     .sec2-heading {
         font-size: 32pt !important;
@@ -234,5 +235,17 @@
     .sec-desc-aparts{
        
         padding-left:2em;
+    }
+}
+
+@media (min-width: 776px) and  (max-width:1200px){
+    .sec2-info{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:776px) and (max-width:992px){
+    .sec2-info{
+        font-size: 14px;
     }
 }
